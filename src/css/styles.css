@@ -1,0 +1,47 @@
+@import './navbar.css';
+@import './buttons.css';
+@import './carousel.css';
+@import './grid.css';
+@import './projects.css';
+@import './history.css';
+@import './summary.css';
+@import './links.css';
+@import './footer.css';
+
+:root {
+  --base: 0.25rem;
+  --s: var(--base);
+  --m: calc(var(--base) * 2);
+  --l: calc(var(--base) * 4);
+  --xl: calc(var(--base) * 10);
+  --xxl: calc(var(--base) * 15);
+  --xxxl: calc(var(--base) * 20);
+
+  --body--font: 'Roboto', sans-serif;
+
+  --primary--color--background: #ffffff;
+  --secundary--color--background: #ededed;
+
+  --primary--color--items: #c4c4c4;
+
+  --primary--color--links: #eeeeee;
+  --primary--color--footer: #cfcfcf;
+
+  --primary--color--dark: #0a0a0a;
+
+  --body--width: 75rem;
+
+  --border--radius: 100px;
+
+  --shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: var(--body--font);
+}
+
+p {
+  font-size: 26px;
+}

@@ -1,0 +1,33 @@
+.history {
+  background-color: var(--secundary--color--background);
+}
+
+.history-items {
+  max-width: var(--body--width);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--xl);
+  margin: 0 auto;
+}
+
+.history-title {
+  font-size: xx-large;
+  font-weight: bold;
+  align-self: center;
+  margin-bottom: var(--xl);
+  margin-top: 0px;
+}
+
+.history-subtitle {
+  margin: 0px;
+}
+
+.squares {
+  padding: var(--xl) var(--s) var(--s) var(--s);
+}
+
+.squares img {
+  margin: var(--m);
+}
