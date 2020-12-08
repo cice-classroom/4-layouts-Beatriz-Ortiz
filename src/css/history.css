@@ -24,10 +24,10 @@
   margin: 0px;
 }
 
-.squares {
+.history-squares {
   padding: var(--xl) var(--s) var(--s) var(--s);
 }
 
-.squares img {
+.history-squares img {
   margin: var(--m);
 }

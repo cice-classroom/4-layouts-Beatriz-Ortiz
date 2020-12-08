@@ -5,20 +5,22 @@
 .grid-items {
   max-width: var(--body--width);
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px 150px;
-  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
   justify-items: center;
-  grid-gap: var(--s);
+  column-gap: var(--s);
+  row-gap: var(--s);
   padding: var(--xl);
+  padding-right: 0px;
   margin: 0 auto;
 }
 
 .item {
   height: 100%;
   width: 100%;
-  background-color: var(--primary--color--items);
+  margin-bottom: 30px;
 }
 
 .item-one {
@@ -48,6 +50,8 @@
   display: flex;
   align-self: center;
   justify-content: space-around;
+  height: 100%;
+  margin-top: 0px;
 }
 
 .title-one {
