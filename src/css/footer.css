@@ -1,0 +1,22 @@
+footer {
+  background-color: var(--primary--color--footer);
+}
+
+.footer-items,
+.politics {
+  display: flex;
+}
+
+.company {
+  flex: 1;
+  margin-left: 25px;
+}
+
+.politics {
+  margin-right: 100px;
+}
+
+.terms,
+.privacy {
+  margin-right: 120px;
+}

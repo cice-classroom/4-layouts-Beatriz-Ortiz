@@ -1,0 +1,19 @@
+.btn {
+  padding: var(--m) var(--xl);
+  border: none;
+  border-radius: var(--border--radius);
+}
+
+.btn-primary {
+  color: var(--primary--color--dark);
+  background-color: var(--primary--color--items);
+}
+
+.btn-secundary {
+  color: var(--primary--color--dark);
+  background-color: var(--primary--color--items);
+  margin-top: var(--xl);
+  padding: var(--l) var(--xxl);
+  border-radius: 100px;
+  font-size: 24px;
+}

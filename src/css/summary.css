@@ -1,0 +1,18 @@
+.summary-items {
+  max-width: var(--body--width);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--xl);
+  margin: 0 auto;
+}
+
+.summary-title {
+  font-size: xx-large;
+  font-weight: bold;
+  align-self: center;
+  padding: var(--l);
+  margin-top: var(--xxl);
+  margin-bottom: var(--l);
+}

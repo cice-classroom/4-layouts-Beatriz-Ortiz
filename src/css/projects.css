@@ -1,0 +1,44 @@
+/* Section projects */
+.projects-items {
+  max-width: var(--body--width);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto;
+  padding: var(--xl);
+}
+
+.projects-title {
+  font-size: xx-large;
+  font-weight: bold;
+  align-self: center;
+  margin-top: 140px;
+}
+
+.project-title {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+}
+
+.project-content-two {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.project-item {
+  font-size: large;
+  padding: var(--l) var(--l);
+}
+
+.project-item-two {
+  text-align: right;
+}
+
+.project-subtitle {
+  font-size: 26px;
+}

@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  padding: var(--l) var(--m);
+  box-shadow: var(--shadow);
+  background-color: var(--primary--color--background);
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--body--width);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar-icon img {
+  position: absolute;
+  width: var(--xl);
+  height: var(--xl);
+  left: 16px;
+  top: 14px;
+  border-radius: var(--border--radius);
+  background-color: var(--primary--color--items);
+}
+
+.navbar-search {
+  padding: var(--m);
+  border: 0;
+  border-radius: var(--border--radius);
+  background-color: var(--primary--color--items);
+}
